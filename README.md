@@ -84,6 +84,10 @@ Primero intentamos adivinar el numero y proporciona los siguientes resultados:
 #### Perder Juego
 ![](/img/lose.PNG)
 
-### B
-Al realizar los intentos y verificar el cambio de puntajes en ambos computadores. Nos dimos cuenta que son valores independientes.
+### Diferencias entre ApplicationScope y SessionScope
+Encontramos que al ejecutar en Application Scope se generan valores iguales para todos los usuarios, por lo tanto se genera un sistema "online" que permite a todos los usuarios dentro de la aplicacion, modificar los valores y ver los cambios. Por el contrario con SessionScope, alcanzamos unicamente a cada usuario, asi que cada aplicacion se ejecuta
+independientemente.
+
+### Jugando con el estilo
+Encontramos el elemento que genera el numero aleatorio, y lo que hacemos es cambiarle su propiedad de display:"none" a display:"block" para poderlo visualizar en pantalla
 ![](/img/label.PNG)
